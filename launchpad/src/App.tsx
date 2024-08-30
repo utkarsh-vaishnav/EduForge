@@ -3,7 +3,7 @@ import './App.css';
 import Navbar from './components/Navbar';
 import { createWeb3Modal, defaultConfig } from '@web3modal/ethers5/react'
 
-const projectId = '2fa6c12dde1b5cd1a88e4fd4cb690bca'
+const projectId = 'process.env.PROJECT_ID'
 
 const sepolia = {
   chainId: 11155111,
