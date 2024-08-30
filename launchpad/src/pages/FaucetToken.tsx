@@ -57,6 +57,8 @@ const Faucet = () => {
     setLoading(true);
 
     try {
+      // We are making this faucet using public key from .env.
+      // We can also make this using backend API where we can have certain conditions so user can claim 0.01 EDU tokens/day.
       const provider = new ethers.providers.JsonRpcProvider("https://rpc.open-campus-codex.gelato.digital");
 
       // Load your wallet using a private key (NOTE: Do not expose private keys in the frontend in production)
