@@ -1,0 +1,132 @@
+/* ToggleButtonExample.css */
+
+
+.toggle-buttons {
+  display: inline-flex;
+  border: 2px solid #283240;
+  border-radius: 25px;
+  overflow: hidden;
+  margin-top:10px;
+}
+
+.toggle-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 20px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 16px;
+  color: #283240;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.toggle-button.selected {
+  background-color: #283240;
+  color: white;
+}
+
+.toggle-button .icon {
+  margin-right: 5px;
+}
+
+
+.css-1v5u2yv{
+  padding:0px !important
+}
+
+.css-j8x530{
+  padding:10px 20px !important;
+  margin:0px 0px !important;
+}
+
+.home-container {
+  /* background: linear-gradient(135deg, #0f2027, #203a43, #2c5364); */
+  height: 80vh;
+  padding: 20px;
+  /* color: white; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-left: 29px;
+}
+
+.crypto-animation-container {
+  position: relative;
+  height: 350px;
+}
+
+.crypto-image {
+  position: absolute;
+  width: 350px;
+  height: 350px;
+  margin-left: 75px;
+}
+
+.floating {
+  animation: floating 7s ease-in-out infinite;
+}
+
+.delay-1 {
+  animation-delay: 1s;
+}
+
+.delay-2 {
+  animation-delay: 2s;
+}
+
+.delay-3 {
+  animation-delay: 3s;
+}
+
+@keyframes floating {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-69px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+.css-1fmuudy{
+  align-items:unset !important;
+}
+
+
+.manageTokenButton{
+  display: inline-flex;
+    height : 48px;
+    align-items: center;
+    position: relative;
+    box-sizing: border-box;
+    outline: 0px;
+    border: 0px;
+    margin: 0px;
+    cursor: pointer;
+    user-select: none;
+    vertical-align: middle;
+    appearance: none;
+    text-decoration: none;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    letter-spacing: 0.02857em;
+    min-width: 64px;
+    border-radius: 4px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    width: 100%;
+    box-shadow: none;
+    text-transform: none;
+    line-height: 24px;
+    font-weight: 500;
+    font-size: 16px;
+    color: white;
+    background: linear-gradient(90deg, rgb(17, 114, 252) 0%, rgb(3, 169, 244) 100%);
+    -webkit-box-pack: start;
+    justify-content: flex-start;
+    padding: 12px;
+}
